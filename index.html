@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Text Summarizer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1 class="title ultra-heading">
+    AI Text Summarizer
+    <span>by Akash</span>
+</h1>
+
+</h1>
+
+
+    <div class="card">
+        <textarea id="inputText" placeholder="Paste your text here..."></textarea>
+
+        <div class="counter-bar">
+            <span id="wordCount">Words: 0</span>
+            <span id="charCount">Characters: 0</span>
+        </div>
+
+        <button id="summarizeBtn">Summarize</button>
+    </div>
+
+    <div class="output-card">
+        <h2>Summary</h2>
+        <div id="outputBox"></div>
+    </div>
+
+    <div id="errorBox" class="error"></div>
+    <div id="loading" class="loading" style="display:none;">Summarizing...</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
